@@ -10,23 +10,23 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL("https://starter.rasmic.xyz"),
   title: {
-    default: 'Nextjs Starter Kit',
+    default: 'Code Growth',
     template: `%s | Nextjs Starter Kit`
   },
-  description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
+  description: 'Craft. Code. Grow. - A product-led marketing agency that uses technology and brand voice to drive growth.',
   openGraph: {
-    description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
-    images: ['https://utfs.io/f/8a428f85-ae83-4ca7-9237-6f8b65411293-eun6ii.png'],
-    url: 'https://starter.rasmic.xyz/'
+    description: 'Craft. Code. Grow. - A product-led marketing agency that uses technology and brand voice to drive growth.',
+    images: ['https://yzysuicbsajmgare.public.blob.vercel-storage.com/transparent_butterfly-Ra38A77qkqg9t8YGru2FHQ5JD7L0Rg.png'],
+    url: 'https://codegrowth.ai/'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nextjs Starter Kit',
-    description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
+    title: 'Code Growth',
+    description: 'https://yzysuicbsajmgare.public.blob.vercel-storage.com/transparent_butterfly-Ra38A77qkqg9t8YGru2FHQ5JD7L0Rg.png',
     siteId: "",
-    creator: "@rasmic",
+    creator: "@madhukarkumar",
     creatorId: "",
-    images: ['https://utfs.io/f/8a428f85-ae83-4ca7-9237-6f8b65411293-eun6ii.png'],
+    images: ['https://yzysuicbsajmgare.public.blob.vercel-storage.com/transparent_butterfly-Ra38A77qkqg9t8YGru2FHQ5JD7L0Rg.png'],
   },
 }
 
@@ -41,12 +41,12 @@ export default function RootLayout({
         <head>
           <link
             rel="preload"
-            href="https://utfs.io/f/31dba2ff-6c3b-4927-99cd-b928eaa54d5f-5w20ij.png"
+            href="https://yzysuicbsajmgare.public.blob.vercel-storage.com/transparent_butterfly-Ra38A77qkqg9t8YGru2FHQ5JD7L0Rg.png"
             as="image"
           />
           <link
             rel="preload"
-            href="https://utfs.io/f/69a12ab1-4d57-4913-90f9-38c6aca6c373-1txg2.png"
+            href="https://yzysuicbsajmgare.public.blob.vercel-storage.com/transparent_butterfly-Ra38A77qkqg9t8YGru2FHQ5JD7L0Rg.png"
             as="image"
           />
         </head>

@@ -1,24 +1,34 @@
+"use client"
+
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import dynamic from 'next/dynamic'
 
 const inter = Inter({ subsets: ['latin'] })
 
+const MotionDiv = dynamic(
+  () => import('framer-motion').then((mod) => mod.motion.div),
+  { ssr: false }
+)
+
 export default function Component() {
   return (
-    <div className={`min-h-screen flex flex-col items-center justify-center p-4 bg-[radial-gradient(circle,_#40C9FF_0%,_#9176FF_43%,_#E752FF_100%)] text-white ${inter.className}`}>
+    <div className={`min-h-screen flex flex-col items-center justify-center p-4 bg-[radial-gradient(circle,_#FCF3C4_0%,_#DB61FA_50%,_#9D8EF8_100%)] text-black ${inter.className}`}>
       <h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow">
         <code className="px-2 py-1">&lt;code/&gt;</code>Growth
       </h1>
       <h2 className="text-xl md:text-2xl mb-8 text-shadow">Craft. Code. Grow.</h2>
-      <div className="relative w-full max-w-md aspect-square mb-8 overflow-hidden rounded-lg">
+  
+      <MotionDiv className=" p-4 rounded-lg mb-8">
         <Image
           src="https://yzysuicbsajmgare.public.blob.vercel-storage.com/transparent_butterfly-Ra38A77qkqg9t8YGru2FHQ5JD7L0Rg.png"
           alt="Neon butterfly illustration representing the fusion of creativity and technology"
-          layout="fill"
+          width={400}
+          height={400}
           objectFit="contain"
-          className="mix-blend-lighten"
         />
-      </div>
+      </MotionDiv>
+    
       <p className="text-center max-w-2xl mb-8 text-lg">
         When content and features are commodity, product-led marketing is the only way to stand out in the crowd. Like a butterfly that blurs the lines between creativity and technology, &lt;code/&gt; Growth is about using technology and brand voice to drive growth.
         Get Started to unlock tools, resources and hands-on training to stand out like a Butterfly. A testament of creativity with technology.
