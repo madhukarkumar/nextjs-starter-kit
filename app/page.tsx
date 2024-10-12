@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import dynamic from 'next/dynamic'
+import { motion } from 'framer-motion'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,23 @@ export default function Component() {
       </h1>
       <h2 className="text-xl md:text-2xl mb-8 text-shadow">Craft. Code. Grow.</h2>
   
-      <MotionDiv className=" p-4 rounded-lg mb-8">
+      <MotionDiv 
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ 
+          opacity: 1, 
+          scale: 1,
+          y: [0, -10, 0] // This creates the floating effect
+        }}
+        transition={{ 
+          duration: 0.5, 
+          y: {
+            duration: 2,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }
+        }}
+        className="p-4 rounded-lg mb-8"
+      >
         <Image
           src="https://yzysuicbsajmgare.public.blob.vercel-storage.com/transparent_butterfly-Ra38A77qkqg9t8YGru2FHQ5JD7L0Rg.png"
           alt="Neon butterfly illustration representing the fusion of creativity and technology"
