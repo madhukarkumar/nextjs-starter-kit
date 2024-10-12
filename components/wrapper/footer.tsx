@@ -87,7 +87,7 @@ export default function Footer() {
                                 </li>
                             </ul>
 
-                            <p className="mt-8 text-xs  ">&copy; 2024. SomeCompany LLC. All rights reserved.</p>
+                            <p className="mt-8 text-xs  ">&copy; 2024. &lt;code/&gt;Growth All rights reserved.</p>
                         </div>
                     </div>
                 </div>
