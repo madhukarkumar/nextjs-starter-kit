@@ -20,7 +20,8 @@ export default function Component() {
         />
       </div>
       <p className="text-center max-w-2xl mb-8 text-lg">
-        When content and features are commoditym how do you stand out from the crowd? We believe it is by blurring the lines between creativity and technology. By driving growth with code and a unique brand voice. Get Started to unlock tools, resources and hands on training to stand out like a Butterfly. A testament of creativity with technology.
+        When content and features are commodity, product-led marketing is the only way to stand out in the crowd. Like a butterfly that blurs the lines between creativity and technology, &lt;code/&gt; Growth is about using technology and brand voice to drive growth.
+        Get Started to unlock tools, resources and hands-on training to stand out like a Butterfly. A testament of creativity with technology.
       </p>
       <div className="flex space-x-4">
         <button className="bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-colors shadow-lg hover:shadow-xl w-40">
