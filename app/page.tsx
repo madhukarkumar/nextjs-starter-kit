@@ -15,7 +15,7 @@ const MotionDiv = dynamic(
 export default function Component() {
   return (
     <div className={`min-h-screen flex flex-col items-center justify-center p-4 bg-[radial-gradient(circle,_#FCF3C4_0%,_#DB61FA_50%,_#9D8EF8_100%)] text-black ${inter.className}`}>
-      <h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow">
+      <h1 className="text-4xl md:text-6xl mb-4 text-shadow">
         <code className="px-2 py-1">&lt;code/&gt;</code>Growth
       </h1>
       <h2 className="text-xl md:text-2xl mb-8 text-shadow">Craft. Code. Grow.</h2>
